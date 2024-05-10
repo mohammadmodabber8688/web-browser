@@ -1,6 +1,13 @@
-import library2manager
-import sys
-import os
-window = library2manager.tk.Tk()
-window.title = "hype"
-window.geometry("500x500")
+import tkinter as tk
+
+
+def windowcreator(a,b):
+
+    Window = tk.Tk()
+    Window.title = "Love"
+    Window.geometry("500x500")
+    Window.resizable(False,False)
+
+    Window.mainloop()
+
+    
